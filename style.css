@@ -5,5 +5,41 @@
 }
 
 body {
+  background-image: linear-gradient(120deg, aqua, #23dcdc);
   font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+form input:focus,
+form button:focus {
+  outline: none;
+}
+
+form button {
+  color: aqua;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+form button:hover {
+  color: black;
 }
